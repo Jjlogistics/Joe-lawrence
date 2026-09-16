@@ -536,7 +536,7 @@ nav ul a:hover {
     padding: 20px 30px;
     transition: 0.5s ease;
     text-align: center;
-    min-height: 200px;
+    height: 370px;
 }
 
 .price-cards:hover {
@@ -561,14 +561,15 @@ nav ul a:hover {
     font-size: 11px;
 }
 
-.price-cards p:last-child {
-    font-size: 5px;
+.price-cards p:nth-child(3) {
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .price-cards a {
     text-decoration: none;
     color: white;
-    margin-top: 20px;
+    margin-top: auto;
     padding: 10px 20px;
     border: 1px solid #ff6b6b;
     font-size: 14px;
@@ -711,6 +712,7 @@ nav ul a:hover {
     padding: 5px 10px;
     border: 1px solid #ff6b6b;
     border-radius: 10px;
+    /* margin-top: auto; */
 }
 
 /* styling the blog section  */
@@ -740,7 +742,9 @@ nav ul a:hover {
     border: 1px solid #1b243b2f;
     /* padding: 20px; */
     background-color: #1b243b36;
+    display: flex;
     /* min-height: 5%; */
+    flex-direction: column;
 }
 
 .blog-card-picx {
@@ -764,12 +768,13 @@ nav ul a:hover {
 
 .blog-card-p-side span {
     color: #ff6b6b;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .blog-card-h-side {
     display: flex;
     flex-direction: column;
+    flex: 1;
     margin-left: 5px;
     /* padding: 10px; */
     gap: 20px 0px;
@@ -786,6 +791,7 @@ nav ul a:hover {
     color: #ff6b6b;
     text-decoration: none;
     font-weight: 500;
+    margin-top: auto;
 }
 
 /* styling contact section  */
