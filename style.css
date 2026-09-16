@@ -1400,7 +1400,7 @@ footer {
 
     .price-cards {
         width: 100%;
-        min-height: 200px;
+        height: 270px;
     }
 
 
@@ -1460,6 +1460,16 @@ footer {
     .blog {
         padding: 50px 5%;
     }
+
+    .blog-card-p-side span {
+    color: #ff6b6b;
+    font-size: 16px;
+}
+
+    .blog-card {
+        height: 350px;
+    }
+
 
     .blog-container {
         width: 100%;
